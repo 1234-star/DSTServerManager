@@ -15,20 +15,20 @@ declare -r SCRIPT_VERSION='v1.6.3'
 declare -r ARCHITECTURE=$(getconf LONG_BIT)
 declare -r REPO_ROOT_DIR="$HOME/DSTServerManager"
 # DST服务端文件夹
-declare -r DST_ROOT_DIR="$HOME/Server"
+declare -r DST_ROOT_DIR="$HOME/dst"
 declare -r UGC_DIR="$DST_ROOT_DIR/ugc_mods"
 declare -r V1_MOD_DIR="$DST_ROOT_DIR/mods"
 declare -r V2_MOD_DIR="$UGC_DIR/content"
 # 存档文件夹
-declare -r KLEI_ROOT_DIR="$HOME/Klei"
-declare -r WORLDS_DIR_NAME='worlds'
+declare -r KLEI_ROOT_DIR="$HOME/.klei"
+declare -r WORLDS_DIR_NAME='DoNotStarveTogether'
 declare -r BACKUP_DIR="$KLEI_ROOT_DIR/backup"
 declare -r IMPORT_DIR="$KLEI_ROOT_DIR/import"
 
 # shard文件夹默认名字() ### 不强制命名
-#declare -r MAIN_SHARD_NAME='Main'
-#declare -r FOREST_SHARD_NAME='Forest'
-#declare -r CAVE_SHARD_NAME='Cave'
+#declare -r MAIN_SHARD_NAME='Master'
+#declare -r FOREST_SHARD_NAME='Master'
+#declare -r CAVE_SHARD_NAME='Caves'
 
 ##############################################################################################
 # 以下变量请勿修改
