@@ -51,7 +51,7 @@
 你需要先把脚本放到服务器上面。  
 在服务器上面使用下面这一行命令就能下载好了:
 ```shell
-cd ~ && git clone https://gitee.com/yechentide/DSTServerManager && ln -s ~/DSTServerManager/DSTManager.sh ~/DSTManager.sh
+cd ~ && git clone https://gitee.com/xlmui/DSTServerManager && ln -s ~/DSTServerManager/DSTManager.sh ~/DSTManager.sh
 ```
 - 注1: 如果你电脑上有`DSTManager.sh`文件, 你也可以手动上传。但是版本1.3以前, 更新功能貌似没写好。推荐用上面命令直接下载
 - 注2: 上面的命令使用了gitee的链接。如果你的服务器在国外, 推荐使用github。只需要把上面的`gitee`改成`github`就行
